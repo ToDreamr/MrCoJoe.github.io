@@ -1,0 +1,10 @@
+
+node_modules/
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
+src/node_modules
+rainy/node_modules
+node_modules/
+.idea
+.vscode
