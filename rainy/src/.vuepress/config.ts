@@ -14,6 +14,7 @@ export default defineUserConfig({
         "/doc/": ["docKing", "docTang"],
         // 这只会加密 /config/page.html
         "/doc/工作相关的文档/工作.html": "kintang",
+        "think":"20031003"
       },
     },
   }),
