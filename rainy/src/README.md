@@ -15,16 +15,28 @@ actions:
     link: ./doc/
     type: primary
 
-  - text: 文档
+  - text: 查看文档
     link: ./demo/
-copyright: Copyright © 2024 Rainy
-footer:  主题 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a>  
+
+features:
+  - title: わだし
+    details: じんせの
+    icon: object-group
+  - title: いつも
+    details: 花壇
+    icon: wand-magic-sparkles
+  - title: 友達に!
+    details: 健康
+    icon: credit-card
+copyright: Copyright © 2024 Cotton Eye Joe
+footer:  主题 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a>
 ---
+
 
 ## 关于我
 
-我是一名全栈开发者。</br>我偶尔写一些笔记和心得并且定期分享到[哔哩哔哩](https://space.bilibili.com/159283119?spm_id_from=333.1007.0.0)</br>
+我是一名全栈开发者。</br>
 
-</br>如果你喜欢新海诚，宫崎骏，今敏，也许我们会有相似的爱好和性格。
+如果你喜欢新海诚，宫崎骏，今敏，也许我们会有相似的爱好和性格。
 
 配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。

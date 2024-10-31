@@ -1,4 +1,7 @@
+# SQL优化
+
 ```pgsql
+
 SELECT FEE_TYPE,SUM(${@com.kingtsoft.kingpower.frame.utils.core.DBUtil@getNull()}(AMOUNT,0)) AMOUNT
         FROM
         (

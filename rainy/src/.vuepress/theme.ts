@@ -6,6 +6,7 @@ import { zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
+  darkmode: "toggle",
   author: {
     name: "Cotton Eye Joe",
     url: "https://github.com/ToDreamr",
@@ -60,12 +61,12 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
-    shiki: {
-      lineNumbers: 10,
-      langAlias: {
-        conf: "ini",
-      },
-    },
+    // shiki: {
+    //   lineNumbers: 10,
+    //   langAlias: {
+    //     conf: "ini",
+    //   },
+    // },
   
     components: {
       components: ["Badge", "VPCard"],
