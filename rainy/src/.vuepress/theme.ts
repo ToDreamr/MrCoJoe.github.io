@@ -46,7 +46,7 @@ export default hopeTheme({
       "/demo/encrypt.html": ["1234"],
     },
   },
-
+  copyright: "Copyright © 2021-present Mr.Cotton Eye Joe",
   plugins: {
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
@@ -58,12 +58,19 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
     blog: {
-      excerptLength: 100,
+      excerptLength: 0,
     },
-
+    shiki: {
+      lineNumbers: 10,
+      langAlias: {
+        conf: "ini",
+      },
+    },
+  
     components: {
       components: ["Badge", "VPCard"],
     },
+    
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
@@ -97,7 +104,6 @@ export default hopeTheme({
       tabs: true,
       tasklist: true,
       vPre: true,
-
       // Install chart.js before enabling it
       // chart: true,
 

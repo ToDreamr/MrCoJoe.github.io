@@ -1,8 +1,10 @@
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
-import { blogPlugin } from '@vuepress/plugin-blog'
+// import { blogPlugin } from '@vuepress/plugin-blog'
 import { hopeTheme } from "vuepress-theme-hope";
+// import { copyrightPlugin } from '@vuepress/plugin-copyright'
+
 
 export default defineUserConfig({
   base: "/",
@@ -20,9 +22,16 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    blogPlugin({
-      // 选项
-    }),
+    // blogPlugin({
+    //   // 选项
+      
+    // }),
+    // copyrightPlugin({
+    //   // options
+    //   global:true,
+    //   triggerLength:20,
+    //   license:"本站所有博客创作和所有权归九歌天上有，请勿直接转载"
+    // }),
   ],
   // Enable it with pwa
   // shouldPrefetch: false,
