@@ -10,10 +10,10 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "指引",
+      text: "思考",
       icon: "book",
       collapsible: true,
-      prefix: "guide/",
+      prefix: "think/",
       children: "structure",
     },
     {
@@ -22,11 +22,6 @@ export const zhSidebar = sidebar({
       children: "structure",
       collapsible: true,
       icon:"check-square"
-    },
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
     },
   ],
 });

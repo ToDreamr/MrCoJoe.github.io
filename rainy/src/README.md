@@ -8,7 +8,7 @@ heroImage: 秒速５センチメートル.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: Cotton Eye Joe
-tagline: 你好，我是春江花朝秋月夜</br>我是这个博客的作者。
+tagline: 你好，我是春江花朝秋月夜。
 actions:
   - text: 阅读笔记
     icon: lightbulb
@@ -18,14 +18,15 @@ actions:
   - text: 查看文档
     link: ./demo/
 
+
 features:
-  - title: わだし
+  - title: 実際、私たちは
     details: じんせの
     icon: object-group
-  - title: いつも
-    details: 花壇
+  - title: この世界で
+    details: たちは
     icon: wand-magic-sparkles
-  - title: 友達に!
+  - title: 常に友達でした!
     details: 健康
     icon: credit-card
 copyright: Copyright © 2024 Cotton Eye Joe
