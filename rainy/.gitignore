@@ -8,3 +8,4 @@ rainy/node_modules
 node_modules/
 .idea
 .vscode
+src/.vuepress/config/theme.ts
