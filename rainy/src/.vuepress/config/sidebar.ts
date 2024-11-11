@@ -10,6 +10,13 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
+      text: "盘古",
+      prefix: "盘古/",
+      children: "structure",
+      collapsible: true,
+      icon:"check-square"
+    },
+    {
       text: "思考",
       icon: "book",
       collapsible: true,

@@ -1,8 +1,8 @@
 # 书写SQL
 
-#### 常用的函数：
+## 常用的函数：
 
-##### IFNULL（expression,default value）只适用于MySQL
+### IFNULL（expression,default value）只适用于MySQL
 
 在 SQL 中，`IFNULL`是一个函数，用于判断一个表达式是否为 `NULL`，如果为 `NULL`则返回指定的值，否则返回表达式本身的值。其语法格式为：`IFNULL(expression, value_if_null)`。
 
@@ -19,7 +19,7 @@
 
 `IFNULL`函数在处理可能包含 `NULL`值的数据时非常有用，可以避免因为 `NULL`值导致的错误或异常。
 
-##### NVL `(expression1, expression2)`
+### NVL `(expression1, expression2)`
 
 Oracle 中有与 `IFNULL`函数类似的函数，即 `NVL`函数。
 
@@ -27,7 +27,7 @@ Oracle 中有与 `IFNULL`函数类似的函数，即 `NVL`函数。
 
 该函数的作用是判断 `expression1`是否为 `NULL`，如果是 `NULL`，则返回 `expression2`的值，否则返回 `expression1`的值。
 
-##### 如何使用Case When 语句？
+### 如何使用Case When 语句？
 
 `CASE WHEN`语句是一种条件表达式，它允许根据条件返回不同的值
 

@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "@vuepress/plugin-blog": "^2.0.0-rc.55",
-    "@vuepress/plugin-copyright": "^2.0.0-rc.57"
-  }
-}

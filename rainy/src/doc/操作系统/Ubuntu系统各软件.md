@@ -51,6 +51,7 @@ mkdir /www
 
 # 映射共享目录
 vmhgfs-fuse .host:/www /www -o subtype=vmhgfs-fuse,allow_other,nonempty
+sudo vmhgfs-fuse .host:/dist /usr/share/nginx/dist -o subtype=vmhgfs-fuse,allow_other
 # 此时 ls /www 查看目录，已经有东西了，映射成功。
 
 # 可以不用参数，如下
