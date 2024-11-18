@@ -32,7 +32,6 @@ jobs:
           cache: pnpm
 
       - name: 安装依赖
-        working-directory: rainy
         run: |
           corepack enable
           pnpm install --frozen-lockfile
@@ -50,4 +49,4 @@ jobs:
         with:
           # 部署文档
           branch: gh-pages
-          folder: rainy/src/.vuepress/dist
+          folder: src/.vuepress/dist
