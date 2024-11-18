@@ -62,7 +62,7 @@ jobs:
         with:
           # ²¿ÊğÎÄµµ
           branch: gh-pages
-          source: src/.vuepress/dist
+          folder: src/.vuepress/dist
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
