@@ -35,6 +35,8 @@ jobs:
           cache: pnpm
 
       - name: 安装依赖
+        with:
+          folder: rainy
         run: |
           corepack enable
           pnpm install --frozen-lockfile
