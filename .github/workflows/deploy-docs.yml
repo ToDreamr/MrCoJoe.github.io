@@ -13,9 +13,6 @@ jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up the working directory
-        run: |
-          working-directory: /rainy
       - name: Checkout
         uses: actions/checkout@v4
         with:
