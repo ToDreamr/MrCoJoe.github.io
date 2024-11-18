@@ -13,6 +13,10 @@ jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
+      - name: 设置目录
+        run: |
+        working-directory: rainy
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -21,27 +25,27 @@ jobs:
           # submodules: true
 
       - name: 设置 pnpm
+        working-directory: rainy
         uses: pnpm/action-setup@v4
         with:
           version: 8
 
-      - name: 设置目录
-        run: |
-        working-directory: rainy
-
       - name: 设置 Node.js
+        working-directory: rainy
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
 
       - name: 安装依赖
+        working-directory: rainy
         run: |
           corepack enable
           pnpm install --frozen-lockfile
     
 
       - name: 构建文档
+        working-directory: rainy
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
@@ -49,6 +53,7 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
+        working-directory: rainy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
