@@ -1,10 +1,3 @@
----
-title = 'Redis'
-date = 2023-10-03T20:31:04+08:00
-draft = false
-tags = ["缓存"]
----
-
 # Redis
 ### 通用命令
 不要在主节点用：keys param 命令来查询，这查询速率很慢，单线程将会被阻塞</br>
