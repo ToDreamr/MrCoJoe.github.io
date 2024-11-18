@@ -6,6 +6,8 @@ import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right';
 
 const __dirname = getDirname(import.meta.url)
 
+
+
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
