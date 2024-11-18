@@ -13,6 +13,9 @@ jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up the working directory
+        run: |
+          working-directory: rainy
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -24,7 +27,6 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 8
-
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
