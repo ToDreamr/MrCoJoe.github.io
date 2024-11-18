@@ -25,10 +25,12 @@ jobs:
         with:
           version: 8
 
+      - name: 设置目录
+        run: |
+        working-directory: rainy
+
       - name: 设置 Node.js
         uses: actions/setup-node@v4
-        run: |
-          working-directory: rainy
         with:
           node-version: 20
           cache: pnpm
