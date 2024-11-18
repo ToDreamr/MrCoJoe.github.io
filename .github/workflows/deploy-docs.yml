@@ -31,8 +31,6 @@ jobs:
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
-        run: |
-        working-directory: rainy
         with:
           node-version: 20
           cache: pnpm
@@ -45,7 +43,6 @@ jobs:
     
 
       - name: 构建文档
-        working-directory: rainy
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
@@ -53,7 +50,6 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
-        working-directory: rainy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
