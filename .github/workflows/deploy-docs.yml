@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Set up the working directory
         run: |
-          working-directory: ./rainy
+          working-directory: /rainy
       - name: Checkout
         uses: actions/checkout@v4
         with:
