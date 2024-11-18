@@ -1,6 +1,5 @@
-// @ts-ignore
 import { defineUserConfig } from "vuepress";
-import { getDirname, path } from 'vuepress/utils'
+import { getDirname } from 'vuepress/utils'
 import theme from "./config/theme.js";
 import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right';
