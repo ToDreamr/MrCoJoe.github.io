@@ -6,7 +6,3 @@
 
 
 ![1730712631416](image/README/1730712631416.png)
-
-xxx
-
-quick draw test
